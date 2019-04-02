@@ -5,8 +5,8 @@ import av
 import cv2
 import logging
 import numpy as np
-from HalloPy.hallopy.icontroller import Icontroller
-from hallopy import utils
+from icontroller import Icontroller
+import utils
 
 # Create loggers.
 flags_logger = logging.getLogger('flags_handler')

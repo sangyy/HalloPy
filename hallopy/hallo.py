@@ -1,6 +1,6 @@
 """my version hallopy script is an example how to use the Hand_recognition_controller.  """
 import tellopy
-from hallopy.controller import Controller
+from controller import Controller
 
 
 def handler(event, sender, data, **args):
