@@ -1,6 +1,6 @@
 import cv2
 
-from hallopy.controller import Controller
+from controller import Controller
 import tellopy
 
 

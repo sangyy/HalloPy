@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
-from hallopy.controller import FlagsHandler, Tracker
-from util.image_comp_tool import ImageTestTool
+from controller import FlagsHandler, Tracker
+from image_comp_tool import ImageTestTool
 
 
 class TestTracker:

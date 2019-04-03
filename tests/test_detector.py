@@ -1,7 +1,7 @@
 import cv2
-from HalloPy.hallopy.controller import Detector, FlagsHandler, Extractor
-from hallopy import utils
-from util.image_comp_tool import ImageTestTool
+from controller import Detector, FlagsHandler, Extractor
+import utils
+from image_comp_tool import ImageTestTool
 import numpy as np
 
 
