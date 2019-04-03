@@ -18,6 +18,7 @@ def init_drone():
         drone.subscribe(drone.EVENT_FLIGHT_DATA, handler)
         drone.connect()
         drone.wait_for_connection(60.0)
+        drone.set_video_encoder_rate(0)
 
     except Exception as ex:
         print(ex)
